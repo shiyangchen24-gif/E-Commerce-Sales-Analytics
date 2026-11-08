@@ -1,0 +1,16 @@
+# Transaction exports: do not publish before license and privacy review
+data/*.csv
+data/*.tsv
+data/*.xlsx
+data/*.xls
+data/*.parquet
+data/*.jsonl
+data/*.zip
+
+# Local copies, notebooks and credentials
+.env
+.env.*
+!.env.example
+*.twbx
+__pycache__/
+.ipynb_checkpoints/
